@@ -5,7 +5,7 @@ Siga os passos abaixo para configurar e rodar o projeto Holistic Store no seu am
 ---
 
 ### **Pré-requisitos**
-- Ter o [Flutter](https://docs.flutter.dev/get-started/install) instalado em sua máquina.
+- Ter o [Flutter](https://docs.flutter.dev/get-started/install) (Versão 3.27.2) instalado em sua máquina.
 - Certifique-se de que os SDKs necessários (Android/iOS) estão instalados e configurados corretamente.
 
 ---
