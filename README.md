@@ -1,16 +1,49 @@
-# holistic
+# Holistic Store
 
-A new Flutter project.
+Siga os passos abaixo para configurar e rodar o projeto Holistic Store no seu ambiente de desenvolvimento:
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### **Pré-requisitos**
+- Ter o [Flutter](https://docs.flutter.dev/get-started/install) instalado em sua máquina.
+- Certifique-se de que os SDKs necessários (Android/iOS) estão instalados e configurados corretamente.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Passos para Rodar o Projeto**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Instalar as dependências do Flutter**
+   Navegue até a pasta do projeto no terminal e execute o comando abaixo para instalar as dependências:
+   ```bash
+   flutter pub get
+   ```
+
+2. **Verificar a configuração do ambiente**
+   Utilize o comando a seguir para verificar se o ambiente está configurado corretamente:
+   ```bash
+   flutter doctor
+   ```
+   Revise o output para identificar e corrigir eventuais problemas.
+
+3. **Listar os emuladores disponíveis**
+   Execute o comando abaixo para listar os emuladores configurados no seu sistema:
+   ```bash
+   flutter emulators
+   ```
+
+4. **Selecionar e copiar o ID do emulador desejado**
+   No output do comando anterior, copie o ID do emulador que você deseja usar.
+
+5. **Iniciar o emulador**
+   Substitua `<emulator_id>` pelo ID do emulador copiado e execute o comando:
+   ```bash
+   flutter emulators --launch <emulator_id>
+   ```
+
+6. **Rodar o projeto no emulador**
+   Com o emulador aberto, inicie o projeto com o comando:
+   ```bash
+   flutter run
+   ```
+
+Made with love by Clara 🖤
