@@ -45,5 +45,7 @@ Siga os passos abaixo para configurar e rodar o projeto Holistic Store no seu am
    ```bash
    flutter run
    ```
-
+Para acessar o sistema, utilize as seguintes credenciais:
+E-mail: clara.carvalho@email.com
+Senha: 123456
 Made with love by Clara 🖤
